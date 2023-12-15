@@ -1,0 +1,98 @@
+html {
+    font-size: 62.5%;
+  }
+  
+  body {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    scroll-behavior: smooth;
+  }
+  
+  /* Scrollbar */
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: lightgrey;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: 02aab0;
+  }
+  @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
+
+h1 {
+  font-weight: 700;
+}
+
+p,
+a {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.6rem;
+}
+
+a,
+a:link,
+a:hover,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+
+a:hover {
+  transition: all 0.3s ease-in-out;
+}
+.section-title {
+  margin: 0px;
+  margin-bottom: 4.5rem;
+  font-size: 4rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.cta-btn {
+  display: inline-block;
+  position: relative;
+  padding: 0.8rem 1.6rem;
+  font-weight: bold;
+  line-height: 1;
+  z-index: 1;
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.6s;
+}
+
+  .cta-btn::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 0px;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.3s;
+  }
+  #hero {
+    min-height: 100vh;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    border-bottom: 0px;
+    background: white;
+    font-weight: 400;
+    color: darkblue;
+    padding: 0rem 5.6rem;
+    margin-bottom: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+  }
+  .hero-title {
+    font-size: 5.6rem;
+    font-weight: 700;
+    margin-bottom: 3.2rem;
+    text-align: left;
+  }
