@@ -21,7 +21,7 @@ function Projects() {
       projectImage:"https://firebasestorage.googleapis.com/v0/b/vikas-negi-3e0ef.appspot.com/o/jobs.jpg?alt=media&token=0b9e93a9-0ad4-4ad6-96a3-d2c202e766af",
       projectTitle: "Mentorkart Jobs",
       projectDescription:
-        `Job Portal (LMS) built on Next.js, Utilized NextJS's SSR for SEO optimization and wrote efficient and scalable code for API requests using Redux.
+        `Job Portal built on Next.js, Utilized NextJS's SSR for SEO optimization and wrote efficient and scalable code for API requests using Redux.
         The platform offers various featues like posting jobs, shortlisting and schduling interview of candidate. Email and whatsapp is triggered on every event. 
         like getting shortlisted of clearing interview round.`,
       // projectSource: "https://github.com/vikas-mentorkart/connectX",
