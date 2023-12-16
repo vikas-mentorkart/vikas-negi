@@ -10,7 +10,7 @@ function Projects() {
       projectTitle: "Mentorkart Academy",
       projectDescription:
         `Learning Management System (LMS) built on Next.js, Wrote efficent and scalable code with the help of NextJS
-        and organized all the API call with the help of Redux. The platform Offers a wide range of functionalities like, sessions, resources, 
+        and organized all the API calls with the help of Redux. The platform Offers a wide range of functionalities like, sessions, resources, 
         assessments and and features like video watch time tracking, session analytics, and attendance report etc...`,
       // projectSource: "https://github.com/vikas-mentorkart/connectX",
       projectLink: "https://academy.mentorkart.org/",
@@ -32,7 +32,7 @@ function Projects() {
     {
       projectImage:
         "https://firebasestorage.googleapis.com/v0/b/vikas-negi-3e0ef.appspot.com/o/connectx.bmp?alt=media&token=eff66f1b-8e98-4a0a-bb21-3cb84b1dc9eb",
-      projectTitle: "Realtime Chatting Application",
+      projectTitle: "Real-time Chatting Application",
       projectDescription:
         "Utilized React's component based Architecture to make a seamless real-time chatting application which utilizes firebase in backend",
       projectSource: "https://github.com/vikas-mentorkart/connectX",
